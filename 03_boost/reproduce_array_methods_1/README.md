@@ -31,7 +31,7 @@ Ensuite, pour chaque itération de la boucle, le corps de la fonction sera exéc
 
 Dans ce cas, la boucle affichera 10 fois la variable index qui aura les valeurs de zéro a 4 a l’intérieur de la boucle.
 
-```
+```bash
 0
 1
 2
@@ -60,7 +60,7 @@ for (let index = 0; index < 5; index++) {
 
 Ce code affichera dans la console :
 
-```
+```bash
 BEFORE 0
 AFTER  0
 BEFORE 1
@@ -88,7 +88,7 @@ console.log("END OF LOOP");
 
 Ce code affichera dans la console :
 
-```
+```bash
 BEFORE 0
 AFTER  0
 BEFORE 1
