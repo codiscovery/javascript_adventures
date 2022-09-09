@@ -21,9 +21,9 @@ Pour cela vous allez définir 3 expressions pour démarrer la boucle.
 2. la condition de sortie, c’est là où se termine
 3. l’opération à chaque fin d’itération
 
-```
+```js
 for (let index = 0 /* 1 */; index < 5 /* 2 */; index++ /* 3 */) {
-    console.log(index);
+  console.log(index);
 }
 ```
 
@@ -48,13 +48,13 @@ Lorsque vous utilisez continue, vous allez ordonner à la de passer à la procha
 
 Si index est égale à 2, alors je passe à l’itération suivante et le console.log qui aurait dû afficher 3 ne s’effectue jamais.
 
-```
+```js
 for (let index = 0; index < 5; index++) {
-    console.log('BEFORE', index);
-    if (index === 2) {
-        continue;
-    }
-    console.log('AFTER', index);
+  console.log("BEFORE", index);
+  if (index === 2) {
+    continue;
+  }
+  console.log("AFTER", index);
 }
 ```
 
@@ -75,15 +75,15 @@ AFTER  4
 
 Le break, en plus de stopper le reste des instructions de l’itération courante, il va aussi terminer la boucle et en sortir.
 
-```
+```js
 for (let index = 0; index < 5; index++) {
-    console.log('BEFORE', index);
-    if (index === 2) {
-        break;
-    }
-    console.log('AFTER', index);
+  console.log("BEFORE", index);
+  if (index === 2) {
+    break;
+  }
+  console.log("AFTER", index);
 }
-console.log('END OF LOOP');
+console.log("END OF LOOP");
 ```
 
 Ce code affichera dans la console :
