@@ -2,6 +2,10 @@
 
 Pour réussir cette aventure, vous aurez besoin de boucles et des callbacks.
 
+Seul la méthode `Array.push()` est autorisée.
+
+Si vous avez des soucis pour utiliser les boucles ou callbacks, vous pouvez lire la suite, sinon vous pouvez démarrer.
+
 ## Episode 0 à 9 : Boucles
 
 Que ce soit des boucles :
