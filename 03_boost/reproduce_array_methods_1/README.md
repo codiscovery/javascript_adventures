@@ -6,6 +6,16 @@ Seul la méthode `Array.push()` est autorisée.
 
 Si vous avez des soucis pour utiliser les boucles ou callbacks, vous pouvez lire la suite, sinon vous pouvez démarrer.
 
+## Vidéos
+
+### Episode 0 à 9 : Boucles
+
+[![loops](https://i3.ytimg.com/vi/r2jRUtBr7to/maxresdefault.jpg)](https://www.youtube.com/watch?v=r2jRUtBr7to)
+
+### Episode 5 à 9 : Callbacks
+
+[![callbacks](https://i3.ytimg.com/vi/RzJrQD0Zb7k/maxresdefault.jpg)](https://www.youtube.com/watch?v=RzJrQD0Zb7k)
+
 ## Episode 0 à 9 : Boucles
 
 Que ce soit des boucles :
@@ -108,5 +118,3 @@ A savoir que si votre boucle est dans une fonction, return aura le même effet q
 - il arrêtera l'exécution de la boucle ET du reste de la fonction
 
 ## Episode 5 - 9 : Callbacks
-
-Coming soon
