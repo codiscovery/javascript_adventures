@@ -6,7 +6,7 @@ Créer une fonction `reduce` avec 3 paramètres :
 
 - `arr` qui contiendra un tableau
 - `callback` qui contiendra une fonction callback
-  - `callback(item: any, index: number, array: Array<any>)`
+  - `callback(item: any, index: number, array: Array<any>): any`
   - Cette fonction callback aura 3 paramètres. Vous n'êtes pas obligé de tous les utiliser
     - `item` qui contiendra l'élément courant
     - `index` qui contiendra l'index de l'élément courant
