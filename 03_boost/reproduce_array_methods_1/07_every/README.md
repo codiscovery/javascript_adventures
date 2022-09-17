@@ -5,7 +5,7 @@
 Créer une fonction `every` avec 2 paramètres :
 
 - `arr` qui contiendra un tableau
-- `callback` qui contiendra une fonction callback
+- `callback` qui contiendra une fonction callback.
   - `callback(item: any, index: number, array: Array<any>): boolean`
   - Cette fonction callback aura 3 paramètres
     - `item` qui contiendra l'élément courant
