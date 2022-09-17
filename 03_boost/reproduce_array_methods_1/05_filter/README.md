@@ -7,7 +7,7 @@ Créer une fonction `filter` avec 2 paramètres :
 - `arr` qui contiendra un tableau
 - `callback` qui contiendra une fonction callback
   - `callback(item: any, index: number, array: Array<any>): boolean`
-  - Cette fonction callback aura 3 paramètres. Vous n'êtes pas obligé de tous les utiliser
+  - Cette fonction callback aura 3 paramètres
     - `item` qui contiendra l'élément courant
     - `index` qui contiendra l'index de l'élément courant
     - `array` qui contient le tableau de départ
